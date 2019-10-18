@@ -1,5 +1,5 @@
 function Product() {
-  return <>product</>;
+  return <>Single expense view.</>;
 }
 
 export default Product;

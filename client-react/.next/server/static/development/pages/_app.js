@@ -330,7 +330,7 @@ function Header() {
     },
     __self: this
   }), "Budgetizer")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    href: "/cart",
+    href: "/expenses",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 21
@@ -344,14 +344,14 @@ function Header() {
     },
     __self: this
   }, __jsx(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__["Icon"], {
-    name: "cart",
+    name: "balance scale",
     size: "large",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 23
     },
     __self: this
-  }), "Cart")), user && __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+  }), "Expenses")), user && __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
     href: "/create",
     __source: {
       fileName: _jsxFileName,
@@ -373,7 +373,7 @@ function Header() {
       lineNumber: 31
     },
     __self: this
-  }), "Create")), user ? __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+  }), "Create Expense")), user ? __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
     href: "/account",
     __source: {
       fileName: _jsxFileName,

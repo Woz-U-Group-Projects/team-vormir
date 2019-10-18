@@ -1,5 +1,5 @@
 function CreateProduct() {
-  return <>create</>;
+  return <>create new expenses here.</>;
 }
 
 export default CreateProduct;

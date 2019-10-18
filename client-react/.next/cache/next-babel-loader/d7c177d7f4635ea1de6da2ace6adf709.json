@@ -1,1 +1,0 @@
-{"ast":null,"code":"import React from \"react\";\nvar __jsx = React.createElement;\n\nfunction Product() {\n  return __jsx(React.Fragment, null, \"product\");\n}\n\nexport default Product;","map":null,"metadata":{},"sourceType":"module"}

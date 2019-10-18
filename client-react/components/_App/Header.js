@@ -18,10 +18,10 @@ function Header() {
           </Menu.Item>
         </Link>
 
-        <Link href="/cart">
+        <Link href="/expenses">
           <Menu.Item header>
-            <Icon name="cart" size="large" />
-            Cart
+            <Icon name="balance scale" size="large" />
+            Expenses
           </Menu.Item>
         </Link>
 
@@ -29,7 +29,7 @@ function Header() {
           <Link href="/create">
             <Menu.Item header>
               <Icon name="add square" size="large" />
-              Create
+              Create Expense
             </Menu.Item>
           </Link>
         )}

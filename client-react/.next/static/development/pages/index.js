@@ -56,7 +56,7 @@ function Home() {
 
 /***/ }),
 
-/***/ 0:
+/***/ 3:
 /*!********************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fgmoney%2FDesktop%2Fteam-vormir%2Fclient-react%2Fpages%2Findex.js ***!
   \********************************************************************************************************************************************/
@@ -79,5 +79,5 @@ module.exports = dll_129a35c7ec57967eb265;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js"]]]);
+},[[3,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map
