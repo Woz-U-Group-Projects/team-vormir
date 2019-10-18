@@ -1,0 +1,37 @@
+{
+  "modules": {
+    "byIdentifier": {},
+    "usedIds": {}
+  },
+  "chunks": {
+    "byName": {
+      "commons": 0,
+      "static/runtime/webpack.js": 1,
+      "static/mk9SQefH0bewi7LRxYNAW/pages/_app.js": 2,
+      "static/mk9SQefH0bewi7LRxYNAW/pages/_error.js": 3,
+      "static/mk9SQefH0bewi7LRxYNAW/pages/account.js": 4,
+      "static/mk9SQefH0bewi7LRxYNAW/pages/cart.js": 5,
+      "static/mk9SQefH0bewi7LRxYNAW/pages/create.js": 6,
+      "static/mk9SQefH0bewi7LRxYNAW/pages/index.js": 7,
+      "static/mk9SQefH0bewi7LRxYNAW/pages/login.js": 8,
+      "static/mk9SQefH0bewi7LRxYNAW/pages/product.js": 9,
+      "static/mk9SQefH0bewi7LRxYNAW/pages/signup.js": 10,
+      "static/runtime/main.js": 11
+    },
+    "bySource": {},
+    "usedIds": [
+      0,
+      1,
+      10,
+      11,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  }
+}
