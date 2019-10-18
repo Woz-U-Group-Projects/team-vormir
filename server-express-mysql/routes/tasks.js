@@ -1,6 +1,9 @@
 var express = require("express");
 var router = express.Router();
 var models = require("../models");
+const mysql = require('mysql2');
+const Sequelize = require('sequelize');
+const Op = Sequelize.Op;
 
 router.get("/", function(req, res, next) {
   models.Task.findAll().then(tasks => res.json(tasks));
