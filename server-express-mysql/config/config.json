@@ -1,8 +1,8 @@
 {
   "development": {
     "username": "root",
-    "password": "Password1!",
-    "database": "budget",
+    "password": "Getmoney1",
+    "database": "mysql",
     "host": "127.0.0.1",
     "dialect": "mysql",
     "define": { "timestamps" : false }
