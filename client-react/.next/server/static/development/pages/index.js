@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 6);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -115,14 +115,14 @@ function Home() {
 
 /***/ }),
 
-/***/ 6:
+/***/ 3:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/gmoney/Desktop/team-vormir/client-react/pages/index.js */"./pages/index.js");
+module.exports = __webpack_require__(/*! /Users/gwomoso/Desktop/wozu/team-vormir/client-react/pages/index.js */"./pages/index.js");
 
 
 /***/ }),

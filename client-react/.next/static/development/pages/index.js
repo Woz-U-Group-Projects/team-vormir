@@ -1,9 +1,9 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/index.js"],{
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fgmoney%2FDesktop%2Fteam-vormir%2Fclient-react%2Fpages%2Findex.js!./":
-/*!****************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fgmoney%2FDesktop%2Fteam-vormir%2Fclient-react%2Fpages%2Findex.js ***!
-  \****************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fgwomoso%2FDesktop%2Fwozu%2Fteam-vormir%2Fclient-react%2Fpages%2Findex.js!./":
+/*!************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fgwomoso%2FDesktop%2Fwozu%2Fteam-vormir%2Fclient-react%2Fpages%2Findex.js ***!
+  \************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -56,14 +56,14 @@ function Home() {
 
 /***/ }),
 
-/***/ 3:
-/*!********************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fgmoney%2FDesktop%2Fteam-vormir%2Fclient-react%2Fpages%2Findex.js ***!
-  \********************************************************************************************************************************************/
+/***/ 0:
+/*!****************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fgwomoso%2FDesktop%2Fwozu%2Fteam-vormir%2Fclient-react%2Fpages%2Findex.js ***!
+  \****************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fgmoney%2FDesktop%2Fteam-vormir%2Fclient-react%2Fpages%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fgmoney%2FDesktop%2Fteam-vormir%2Fclient-react%2Fpages%2Findex.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fgwomoso%2FDesktop%2Fwozu%2Fteam-vormir%2Fclient-react%2Fpages%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fgwomoso%2FDesktop%2Fwozu%2Fteam-vormir%2Fclient-react%2Fpages%2Findex.js!./");
 
 
 /***/ }),
@@ -79,5 +79,5 @@ module.exports = dll_129a35c7ec57967eb265;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js"]]]);
+},[[0,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map

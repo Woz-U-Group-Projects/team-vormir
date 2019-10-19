@@ -6187,7 +6187,7 @@ function connect(options) {
       error.name = err.name;
       error.stack = err.stack; // __NEXT_DIST_DIR is provided by webpack
 
-      (0, _sourceMapSupport.rewriteStacktrace)(error, "/Users/gmoney/Desktop/team-vormir/client-react/.next");
+      (0, _sourceMapSupport.rewriteStacktrace)(error, "/Users/gwomoso/Desktop/wozu/team-vormir/client-react/.next");
       return error;
     }
   };

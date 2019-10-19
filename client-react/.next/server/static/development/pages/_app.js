@@ -104,7 +104,7 @@ module.exports =
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/Users/gmoney/Desktop/team-vormir/client-react/components/_App/HeadContent.js";
+var _jsxFileName = "/Users/gwomoso/Desktop/wozu/team-vormir/client-react/components/_App/HeadContent.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 /* harmony default export */ __webpack_exports__["default"] = (() => __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("meta", {
@@ -280,7 +280,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var semantic_ui_react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(semantic_ui_react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "/Users/gmoney/Desktop/team-vormir/client-react/components/_App/Header.js";
+var _jsxFileName = "/Users/gwomoso/Desktop/wozu/team-vormir/client-react/components/_App/Header.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -478,7 +478,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var semantic_ui_react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(semantic_ui_react__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _Header__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Header */ "./components/_App/Header.js");
 /* harmony import */ var _HeadContent__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./HeadContent */ "./components/_App/HeadContent.js");
-var _jsxFileName = "/Users/gmoney/Desktop/team-vormir/client-react/components/_App/Layout.js";
+var _jsxFileName = "/Users/gwomoso/Desktop/wozu/team-vormir/client-react/components/_App/Layout.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -1465,7 +1465,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_app__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/app */ "./node_modules/next/app.js");
 /* harmony import */ var next_app__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_app__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _components_App_Layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/_App/Layout */ "./components/_App/Layout.js");
-var _jsxFileName = "/Users/gmoney/Desktop/team-vormir/client-react/pages/_app.js";
+var _jsxFileName = "/Users/gwomoso/Desktop/wozu/team-vormir/client-react/pages/_app.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
