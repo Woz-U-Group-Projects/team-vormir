@@ -28,13 +28,13 @@ class AccountForm extends React.Component {
             width={9}
             required
             label="Name"
-            placeholder="Account name"
+            placeholder="Account Type and Name"
             value={this.props.form.name}
             onChange={this.handleNameChange}
           />
           <Form.Select
             width={7}
-            label="Group"
+            label="Group Type"
             value={this.props.form.group}
             options={this.groups}
             onChange={this.handleGroupChange}
@@ -49,7 +49,7 @@ class AccountForm extends React.Component {
               onChange={this.props.toggleOnDashboard}
             />
           </Form.Field>
-          <Form.Button width={7} primary fluid content="Save Account" />
+          <Form.Button width={7} primary fluid content="Save" />
         </Form.Group>
       </Form>
     );
