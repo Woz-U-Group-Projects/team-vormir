@@ -4,7 +4,7 @@ header {
   padding: 16px;
   height: 62px;
   width: 100%;
-  background-color: #23b93c;
+  background-color: #85BB65; /*Change header color to Dollar Bill */
   border-bottom: 1px solid rgba(34, 36, 38, 0.15);
   box-shadow: 0 2px 6px 0 rgba(34, 36, 38, 0.15),
     0 2px 18px 0 rgba(34, 36, 38, 0.17);

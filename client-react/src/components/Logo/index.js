@@ -1,10 +1,10 @@
 import React from 'react';
-import logo from './logo.svg';
+import logo from './logo.png';
 import './index.css';
 
 const Logo = () => (
   <div className="logo">
-    <img src={logo} alt="Money Tracker" />
+    <img src={logo} alt="Budgetizer" />
   </div>
 );
 
