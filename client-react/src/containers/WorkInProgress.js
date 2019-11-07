@@ -3,9 +3,6 @@ import { PieChart, Pie, Sector, Cell } from "recharts";
 
 
   
- 
-
-
 const data = [
   { name: "Group A", value: 400 },
   { name: "Group B", value: 300 },
