@@ -17,6 +17,9 @@ app.use(express.static(path.join(__dirname, "public")));
 app.use(cors());
 
 app.use("/tasks", tasksRouter);
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static('client-react/src'));
+}
 
 models.sequelize.sync().then(function() {
   console.log("DB Sync'd up");
