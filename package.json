@@ -8,10 +8,10 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node ./bin/www",
-    "server":"node ./bin/www",
+    //"start": "node ./bin/www",
+    //"server":"node ./bin/www",
     "client-react":"npm start --prefix client-react",
-    "dev":"concurrently \"npm start server-express-mysql\" \"npm run client-react\"",
+    "dev":"npm run client-react",
     "heroku-postbuild":"npm install --prefix client-react && run build --prexfix client-react"
   },
   "repository": {
