@@ -2,6 +2,10 @@
   "name": "client-react",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "12.5.0",
+    "npm": "6.13.0"
+  },
   "dependencies": {
     "@sentry/browser": "^4.6.6",
     "@types/chart.js": "^2.8.11",
