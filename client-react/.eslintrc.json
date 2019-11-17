@@ -1,0 +1,14 @@
+{
+    "parserOptions": {
+      "ecmaVersion": 2019,
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "jsx": true,
+        "experimentalObjectRestSpread": true,
+        "impliedStrict": true
+      }
+    },
+    "parser": "babel-eslint",
+    "plugins": ["react"]
+  }
+  

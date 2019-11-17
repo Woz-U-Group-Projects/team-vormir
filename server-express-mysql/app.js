@@ -17,6 +17,7 @@ app.use(express.static(path.join(__dirname, "public")));
 app.use(cors());
 
 app.use("/tasks", tasksRouter);
+<<<<<<< HEAD
 // error handler
 app.use(function(err, req, res, next) {
   // set locals, only providing error in development
@@ -27,6 +28,11 @@ app.use(function(err, req, res, next) {
   res.status(err.status || 500);
   res.render('error');
 });
+=======
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static('client-react/src'));
+}
+>>>>>>> startover
 
 models.sequelize.sync().then(function() {
   console.log("DB Sync'd up");

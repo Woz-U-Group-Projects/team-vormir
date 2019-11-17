@@ -1,0 +1,27 @@
+{
+  "name": "team-vormir",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "concurrently": "^5.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    //"start": "node ./bin/www",
+    //"server":"node ./bin/www",
+    "client-react":"npm start --prefix client-react",
+    "dev":"npm run client-react",
+    "heroku-postbuild":"npm install --prefix client-react && run build --prexfix client-react"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Woz-U-Group-Projects/team-vormir.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Woz-U-Group-Projects/team-vormir/issues"
+  },
+  "homepage": "https://github.com/Woz-U-Group-Projects/team-vormir#readme"
+}
