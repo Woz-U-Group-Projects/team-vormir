@@ -1,58 +1,65 @@
-import React, { Component } from "react";
-import {  Pie, } from "react-chartjs-2";
+import React, { PureComponent } from "react";
+import { PieChart, Pie, Sector, Cell } from "recharts";
 
 
-export default class App extends Component {
-    state = {
-        dataPie: {
-            datasets: [{
-                data: [10, 20, 30]
-            }],
+  
+const data = [
+  { name: "Group A", value: 400 },
+  { name: "Group B", value: 300 },
+  { name: "Group C", value: 300 },
+  { name: "Group D", value: 200 }
+];
 
-        },
-        first: "",
-        second: "",
-    }
-    handleSubmit = () => {
-        const { dataPie } = this.state;
-        this.setState({
-            dataPie: {
-                ...dataPie,
-                datasets: [{
-                    ...dataPie.datasets,
-                    data: [
-                    this.state.first,
-                     this.state.second
-                       ]
-                }]
-            }
-        })
-    }
-    handleChange = (evt) => {
-        let a = parseInt(evt.target.value)
-        this.setState({
-            [evt.target.name]: a,
-        })
-    }
-    render() {
+const COLORS = ["#0088FE", "#00C49F", "#FFBB28", "#FF8042"];
 
+const RADIAN = Math.PI / 180;
+const renderCustomizedLabel = ({
+  cx,
+  cy,
+  midAngle,
+  innerRadius,
+  outerRadius,
+  percent,
+  index
+}) => {
+  const radius = innerRadius + (outerRadius - innerRadius) * 0.5;
+  const x = cx + radius * Math.cos(-midAngle * RADIAN);
+  const y = cy + radius * Math.sin(-midAngle * RADIAN);
 
-        const { data, dataPie } = this.state;
-        console.log(dataPie);
-        return (
-            <React.Fragment>
-                <input type="number"
-                    value={this.state.first}
-                    name="first"
-                    onChange={(evt) => this.handleChange(evt)} />
-                <input type="number"
-                    value={this.state.second}
-                    name="second" onChange={(evt) => this.handleChange(evt)} />
-                <button onClick={() => this.handleSubmit()}>add data to chart</button>
-                <h1>pie chart</h1>
-                <Pie data={dataPie} />
-            </React.Fragment>
+  return (
+    <text
+      x={x}
+      y={y}
+      fill="white"
+      textAnchor={x > cx ? "start" : "end"}
+      dominantBaseline="central"
+    >
+      {`${(percent * 100).toFixed(0)}%`}
+    </text>
+  );
+};
 
-        )
-    }
+export default class Example extends PureComponent {
+  static jsfiddleUrl = "https://jsfiddle.net/alidingling/c9pL8k61/";
+
+  render() {
+    return (
+      <PieChart width={400} height={400}>
+        <Pie
+          data={data}
+          cx={200}
+          cy={200}
+          labelLine={false}
+          label={renderCustomizedLabel}
+          outerRadius={80}
+          fill="#8884d8"
+          dataKey="value"
+        >
+          {data.map((entry, index) => (
+            <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
+          ))}
+        </Pie>
+      </PieChart>
+    );
+  }
 }
